@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main() {
+	char a, b, c, d;
+	int i=6,m=2;
+	scanf("%c %c %c %c", &a, &b, &c, &d );
+
+	while(i>0){
+	printf("%c \v ", a);
+	i--;
+	}
+	
+i=6;
+
+	while(i>0){
+	printf("%c \v ",b);
+	i--;
+	
+}
+
+i=6;
+
+	while(i>0){
+	printf("%c \v ", c);
+	i--;
+}
+
+i=6;
+
+	while(i>0){
+	printf("%c \v ", d);
+	i--;
+}
+printf("\n%c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v", b,b,c,c,d,d,a,a,c,c,d,d,a,a,b,b,d,d,a,a,b,b,c,c);
+printf("\n%c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v", c,d,b,d,b,c,c,d,a,d,a,c,b,d,a,d,a,b,b,c,a,c,a,b);
+printf("\n%c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v %c \v", d,c,d,b,c,b,d,c,d,a,c,a,d,b,d,a,b,a,c,b,c,a,b,a);
+
+	return 0;
+}

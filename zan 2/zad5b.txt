@@ -1,0 +1,41 @@
+
+#include<stdio.h>
+
+int main(){
+	float a, b, wynik;
+	int c=1;
+	printf("Wwedit chys1lo\n");
+	scanf("%f", &a);
+	wynik=a;
+	while(c!=5){
+		printf("1.Dodaj\n 2.Odejmuje\n 3.Mnorz\n 4.Dziel \n 5.Wynik\n");
+		scanf("%d", &c);
+		if(c!=5){
+			
+			printf("Wwedit chyslo\n");
+		scanf("%f", &b);\
+		}
+		
+		switch(c){
+		
+			case 1:
+				wynik+=b;
+				break;
+		
+			case 2:
+				wynik-=b;
+				break;
+			case 3:
+				wynik*=b;
+				break;
+			case 4:
+				wynik/=b;
+				break;		
+			case 5:
+				printf("%f", wynik);
+				break;
+			}
+		}
+
+	return 0;
+	}

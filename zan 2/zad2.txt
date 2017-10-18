@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	int a, b, c;
+	float D=0;
+	scanf("%d %d %d", &a, &b, &c);
+	D=b*b-4*a*c;
+	if(D>=0){
+		if(D==0){
+			printf("%f", -b/(2.0*a));
+		}
+		else{	
+			printf("%f \n", (-b+sqrt(D))/2*a);
+			printf("%f", (-b-sqrt(D))/2*a);
+		}
+	}
+	
+	else{
+		printf("\n niema rozwazan");
+	}
+	return 0;
+}

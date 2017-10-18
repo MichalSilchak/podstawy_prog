@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	int a=2, b=6, wynik1, wynik2, wynik3, wynik4, wynik5;
+	wynik1=a+b;
+	wynik2=b-a;
+	wynik3=a*b;
+	wynik4=b/a;
+	wynik5=a%b;
+	printf("%d", wynik3 /n);
+	return 0;
+}
